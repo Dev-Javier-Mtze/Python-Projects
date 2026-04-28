@@ -1,8 +1,6 @@
-import json
 import random
 from dataclasses import dataclass
 from decimal import Decimal
-from typing import TypedDict
 
 from pydantic import BaseModel, Field
 
@@ -10,22 +8,22 @@ from pydantic import BaseModel, Field
 @dataclass(order=True)
 class Order:
     quantity: int
-    disc: bool = False
-    sub_total2: Decimal = 0
-    total_cost2: float = 0
+    discount_applied: bool = False
+    sub_total: Decimal = 0
+    total: float = 0
 
     @property
     def total_cost(self) -> float:
-        self.total_cost2 = self.quantity * Decimal("2.99")
-        return self.total_cost2
+        self.total = self.quantity * Decimal("2.99")
+        return self.total
 
     @property
     def apply_sub_total(self) -> float:
-        if self.disc:
-            self.sub_total2 = self.less
+        if self.discount_applied:
+            self.sub_total = self.less
         else:
-            self.sub_total2 = self.total_cost2
-        return round(self.sub_total2, 2)
+            self.sub_total = self.total
+        return round(self.sub_total, 2)
 
     @property
     def less(self) -> float:
@@ -33,16 +31,11 @@ class Order:
 
     @property
     def discount(self) -> bool:
-        return self.disc
+        return self.discount_applied
 
     @discount.setter
     def discount(self, value: bool):
-        self.disc = value
-
-
-class Quantity(BaseModel):
-    quantity: int = Field(..., gt=0, lt=100)
-    price: Decimal = Field(..., gt=Decimal(0), decimal_places=2)
+        self.discount_applied = value
 
 
 class OrderOut(BaseModel):
@@ -58,24 +51,16 @@ class OrderIn(BaseModel):
     discount: bool = False
     total: float = Field(..., gt=0)
 
-class Ord(TypedDict):
-    quantity: int
-    sub_total: float
-    discount: bool
-    total: float
-
-
 
 def main():
     price = Decimal("2.99")
     quantity_input = int(
         input("Hello!! Welcome to our donut shop, how many donuts do you want?\n")
     )
-    quantity = Quantity(quantity=quantity_input, price=price)
 
-    print(f"Your order: {quantity.quantity} donuts. Price per donut: ${price}")
+    print(f"Your order: {quantity_input} donuts. Price per donut: ${price}")
 
-    my_order = Order(quantity.quantity, False)
+    my_order = Order(quantity_input, False)
     print(f"The total cost of your order is: ${my_order.total_cost:.2f}")
 
     last_order_quanity = random.randint(1, 10)
@@ -104,19 +89,20 @@ def main():
 def complete_order(order: Order):
     new_order = OrderOut(
         quantity=order.quantity,
-        sub_total=order.apply_sub_total,
-        discount=order.disc,
-        total=order.total_cost2,
+        sub_total=order.total,
+        discount=order.discount_applied,
+        total=order.apply_sub_total,
     )
     return new_order
 
 
-def retrieve_order(order: Ord):
+def retrieve_order(order):
     new_order = OrderIn(**order.model_dump())
     return new_order
 
+
 order = main()
 order_out = complete_order(order)
-print(f'Order out: {order_out}')
+print(f"Order out: {order_out}")
 order_in = retrieve_order(order_out)
 print(order_in)

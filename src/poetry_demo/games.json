@@ -14,5 +14,21 @@
     "785": {
         "name": "GTA",
         "rating": 10
+    },
+    "44": {
+        "name": "Gears of war",
+        "rating": 9
+    },
+    "3": {
+        "name": "minecraft",
+        "rating": 2
+    },
+    "5": {
+        "name": "rt",
+        "rating": 4
+    },
+    "621": {
+        "name": "Call of duty",
+        "rating": 7
     }
 }

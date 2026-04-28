@@ -1,5 +1,11 @@
 import json
+import logging
 import os
+
+from logging_config import setup_logging
+
+setup_logging()
+logger = logging.getLogger("module_2_games")
 
 
 def add_game_id():
@@ -30,9 +36,9 @@ def add_game_file(game_id):
                     f"Your game is {result['name']} with a rating of {result['rating']}"
                 )
             else:
-                add_game_data(data)
+                return add_game_data(data)
     else:
-        add_game_data()
+        return add_game_data()
 
 
 def add_game_data(data={}):
@@ -55,8 +61,17 @@ def add_game_data(data={}):
         file.write(json_string)
 
     print("Your game is now in the library")
+    logger.debug("Game added to the library")
+    return json_string
 
+
+# def retrieve_game_rating(data):
+#     result = json.loads(data)
+#     print(result)
+#     good_rating = [game for game in result if game["rating"] > 8]
+#     print(good_rating)
 
 game_id = add_game_id()
 if game_id:
-    add_game_file(game_id)
+    json_data = add_game_file(game_id)
+    # retrieve_game_rating(json_data)

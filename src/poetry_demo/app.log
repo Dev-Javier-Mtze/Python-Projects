@@ -1,0 +1,169 @@
+2026-04-27 13:36:32,130 - __main__ - DEBUG - Mensaje de depuración (solo archivo)
+2026-04-27 13:36:32,130 - __main__ - INFO - Inicio de la aplicación (consola y archivo)
+2026-04-27 13:36:32,130 - __main__ - WARNING - Advertencia: recurso limitado
+2026-04-27 13:36:32,130 - __main__ - ERROR - Error en la ejecución
+2026-04-27 13:36:32,130 - __main__ - CRITICAL - Fallo crítico
+2026-04-27 13:40:35,705 - __main__ - DEBUG - Mensaje de depuración (solo archivo)
+2026-04-27 13:40:35,705 - __main__ - INFO - Inicio de la aplicación (consola y archivo)
+2026-04-27 13:40:35,705 - __main__ - WARNING - Advertencia: recurso limitado
+2026-04-27 13:40:35,705 - __main__ - ERROR - Error en la ejecución
+2026-04-27 13:40:35,705 - __main__ - CRITICAL - Fallo crítico
+2026-04-27 14:07:44,460 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-27 14:07:44,476 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:07:44,890 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 314
+2026-04-27 14:08:43,589 - __main__ - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:08:43,605 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:08:44,472 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:08:44,473 - backoff - INFO - Backing off llamar_api(...) for 0.9s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:08:45,393 - __main__ - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:08:45,396 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:08:45,775 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:08:45,776 - backoff - INFO - Backing off llamar_api(...) for 1.8s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:08:47,567 - __main__ - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:08:47,569 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:08:48,086 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:08:48,087 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:51:56,094 - __main__ - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-27 14:51:56,106 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:51:56,503 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 314
+2026-04-27 14:52:22,593 - __main__ - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-27 14:52:22,599 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:52:23,015 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 314
+2026-04-27 14:53:06,118 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-27 14:53:06,134 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:53:06,532 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 314
+2026-04-27 14:57:18,837 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:57:18,848 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:57:19,245 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:57:19,245 - backoff - INFO - Backing off llamar_api(...) for 0.1s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:57:19,329 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:57:19,330 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:57:19,703 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:57:19,704 - backoff - INFO - Backing off llamar_api(...) for 1.1s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:57:20,844 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:57:20,846 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:57:21,225 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:57:21,226 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:58:21,465 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:58:21,477 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:58:21,883 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:58:21,883 - backoff - INFO - Backing off llamar_api(...) for 0.5s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:58:22,385 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:58:22,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:58:22,938 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:58:22,939 - backoff - INFO - Backing off llamar_api(...) for 0.4s (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:58:23,341 - api_call - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-27 14:58:23,344 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:58:23,741 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-27 14:58:23,742 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-27 14:58:31,071 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-27 14:58:31,084 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-27 14:58:31,470 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 314
+2026-04-28 07:46:54,316 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 07:46:54,331 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 07:46:54,816 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 07:47:23,027 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 07:47:23,042 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 07:47:23,516 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 07:49:19,734 - api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 07:49:19,747 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 07:49:20,230 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 07:49:56,213 - module_2_api_call - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 07:49:56,226 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 07:49:56,717 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 08:12:21,459 - module_2_games - DEBUG - Game added to the library
+2026-04-28 08:19:00,375 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:19:00,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:19:00,873 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:19:00,874 - backoff - INFO - Backing off llamar_api(...) for 0.3s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:19:01,178 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:19:01,181 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:19:01,636 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:19:01,637 - backoff - INFO - Backing off llamar_api(...) for 0.2s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:19:01,845 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:19:01,847 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:19:02,784 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:19:02,785 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:20:00,078 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 08:20:00,091 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:20:00,660 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 08:22:16,829 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:22:16,845 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:22:17,344 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:22:17,345 - backoff - INFO - Backing off llamar_api(...) for 0.0s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:22:17,386 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:22:17,387 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:22:18,273 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:22:18,274 - backoff - INFO - Backing off llamar_api(...) for 0.6s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:22:18,902 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:22:18,905 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:22:19,362 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:22:19,363 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:22:45,277 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 08:22:45,288 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:22:45,868 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 08:23:11,167 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:23:11,177 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:23:11,762 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:23:11,763 - backoff - INFO - Backing off llamar_api(...) for 0.5s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:23:12,285 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:23:12,287 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:23:12,845 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:23:12,846 - backoff - INFO - Backing off llamar_api(...) for 0.0s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:23:12,858 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:23:12,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:23:13,420 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:23:13,421 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:28:34,806 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:28:34,821 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:28:35,297 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:28:35,298 - backoff - INFO - Backing off llamar_api(...) for 0.2s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:28:35,497 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:28:35,500 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:28:35,965 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:28:35,966 - backoff - INFO - Backing off llamar_api(...) for 0.2s (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:28:36,149 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/status/500
+2026-04-28 08:28:36,152 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:28:36,612 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /status/500 HTTP/1.1" 500 0
+2026-04-28 08:28:36,613 - backoff - ERROR - Giving up llamar_api(...) after 3 tries (requests.exceptions.HTTPError: ERRO)
+2026-04-28 08:28:53,567 - module_3_backoff - DEBUG - Intentando llamar: https://httpbin.org/get
+2026-04-28 08:28:53,577 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2026-04-28 08:28:54,162 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /get HTTP/1.1" 200 313
+2026-04-28 09:07:35,701 - httpcore.connection - DEBUG - connect_tcp.started host='httpbin.org' port=443 local_address=None timeout=0.2839812793685432 socket_options=None
+2026-04-28 09:07:35,824 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1098f4ec0>
+2026-04-28 09:07:35,824 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x104dc3140> server_hostname='httpbin.org' timeout=0.2839812793685432
+2026-04-28 09:07:36,047 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1098725d0>
+2026-04-28 09:07:36,047 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-04-28 09:07:36,048 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-28 09:07:36,048 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-04-28 09:07:36,048 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-28 09:07:36,048 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 09:07:36,160 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 28 Apr 2026 15:07:36 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'304'), (b'Connection', b'keep-alive'), (b'Server', b'gunicorn/19.9.0'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2026-04-28 09:07:36,161 - httpx - INFO - HTTP Request: GET https://httpbin.org/get "HTTP/1.1 200 OK"
+2026-04-28 09:07:36,161 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-04-28 09:07:36,161 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-28 09:07:36,162 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-28 09:07:36,162 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-28 09:07:36,166 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.to:443
+2026-04-28 09:07:37,223 - urllib3.connectionpool - DEBUG - https://storage.to:443 "GET /HoSCYRqwn HTTP/1.1" 200 None
+2026-04-28 09:07:37,399 - module_3_backoff - DEBUG - File downloaded successfully: dog.zip
+2026-04-28 09:08:24,642 - httpcore.connection - DEBUG - connect_tcp.started host='httpbin.org' port=443 local_address=None timeout=0.2880034247187848 socket_options=None
+2026-04-28 09:08:24,765 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1070f4ec0>
+2026-04-28 09:08:24,765 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x102da7140> server_hostname='httpbin.org' timeout=0.2880034247187848
+2026-04-28 09:08:24,991 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1070725d0>
+2026-04-28 09:08:24,991 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-04-28 09:08:24,991 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-28 09:08:24,992 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-04-28 09:08:24,992 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-28 09:08:24,992 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 09:08:25,100 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 28 Apr 2026 15:08:25 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'304'), (b'Connection', b'keep-alive'), (b'Server', b'gunicorn/19.9.0'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2026-04-28 09:08:25,102 - httpx - INFO - HTTP Request: GET https://httpbin.org/get "HTTP/1.1 200 OK"
+2026-04-28 09:08:25,102 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-04-28 09:08:25,103 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-28 09:08:25,103 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-28 09:08:25,103 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-28 09:08:25,108 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.to:443
+2026-04-28 09:08:25,658 - urllib3.connectionpool - DEBUG - https://storage.to:443 "GET /HoSCYRqwn HTTP/1.1" 200 None
+2026-04-28 09:08:25,661 - module_7_httpx - DEBUG - File downloaded successfully: dog.zip
+2026-04-28 09:44:52,491 - module_6_retrieve_cvs - DEBUG - CVS file updated
+2026-04-28 09:45:35,163 - module_6_retrieve_cvs - INFO - CVS file updated
