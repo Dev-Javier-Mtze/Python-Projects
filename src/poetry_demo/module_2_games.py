@@ -7,14 +7,20 @@ from logging_config import setup_logging
 setup_logging()
 logger = logging.getLogger("module_2_games")
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(BASE_DIR)
+
 
 def add_game_id():
     try:
         game_id = int(input("Give me a number between 1-9999\n"))
+        return validate_game_id(game_id)
     except ValueError:
         print("Not a valid id")
-        return
+        return False
 
+
+def validate_game_id(game_id):
     if game_id < 1 or game_id > 9999:
         print("Not a valid id")
         return
@@ -25,19 +31,26 @@ def add_game_id():
 
 def add_game_file(game_id):
 
-    if os.path.exists("./games.json") and os.path.getsize("./games.json") > 0:
-        with open("./games.json", "r") as file:
-            data = json.load(file)
-            result = data.get(str(game_id), False)
+    try:
+        if (
+            os.path.join(BASE_DIR, "data", "games.json")
+            and os.path.getsize(f"{BASE_DIR}/data/games.json") > 0
+        ):
+            with open(f"{BASE_DIR}/data/games.json", "r") as file:
+                data = json.load(file)
+                result = data.get(str(game_id), False)
 
-            if result:
-                print("Game already in the library")
-                print(
-                    f"Your game is {result['name']} with a rating of {result['rating']}"
-                )
-            else:
-                return add_game_data(data)
-    else:
+                if result:
+                    print("Game already in the library")
+                    print(
+                        f"Your game is {result['name']} with a rating of {result['rating']}"
+                    )
+                else:
+                    return add_game_data(data)
+        else:
+            return add_game_data()
+    except Exception as e:
+        print(e)
         return add_game_data()
 
 
@@ -57,7 +70,7 @@ def add_game_data(data={}):
     data[game_id] = {"name": game_name, "rating": game_rating}
 
     json_string = json.dumps(data, indent=4)
-    with open("./games.json", "w") as file:
+    with open(f"{BASE_DIR}/data/games.json", "w") as file:
         file.write(json_string)
 
     print("Your game is now in the library")
@@ -71,7 +84,10 @@ def add_game_data(data={}):
 #     good_rating = [game for game in result if game["rating"] > 8]
 #     print(good_rating)
 
-game_id = add_game_id()
-if game_id:
-    json_data = add_game_file(game_id)
-    # retrieve_game_rating(json_data)
+
+if __name__ == "__main__":
+    # Only runs when you execute the script directly, not when imported
+    game_id = add_game_id()
+    if game_id:
+        json_data = add_game_file(game_id)
+        # retrieve_game_rating(json_data)

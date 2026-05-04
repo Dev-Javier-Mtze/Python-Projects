@@ -5,9 +5,8 @@ from contextlib import contextmanager
 
 import backoff
 import requests
-from requests.exceptions import HTTPError
-
 from logging_config import setup_logging
+from requests.exceptions import HTTPError
 
 setup_logging()
 logger = logging.getLogger("module_3_backoff")

@@ -1,15 +1,22 @@
 import logging
+import os
 import random
 
 import httpx
 import requests
-from tenacity import (retry, retry_if_exception_type, stop_after_attempt,
-                      wait_exponential)
-
 from logging_config import setup_logging
+from tenacity import (
+    retry,
+    retry_if_exception_type,
+    stop_after_attempt,
+    wait_exponential,
+)
 
 setup_logging()
 logger = logging.getLogger("module_7_httpx")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(BASE_DIR)
 
 
 @retry(
@@ -32,7 +39,7 @@ except Exception:
 
 
 url = "https://storage.to/HoSCYRqwn"
-ruta_salida = "dog.zip"
+ruta_salida = f"{BASE_DIR}/data/dog.zip"
 
 with requests.get(url, stream=True) as respuesta:
     respuesta.raise_for_status()

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="PRqeP234js9kQ4EZOIHUYoClHmoZhgSVNx95SRei">
+    <meta name="csrf-token" content="I0v4ESaG0vFPf7kNcx1kGpnirds1zFes2ukhQDB6">
     <meta name="description" content="Send files up to 25GB. No signup. No ads. No tracking. Fast, private file sharing powered by Cloudflare.">
 
     <title>Copilot_20260427_181655.png - storage.to</title>
@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://storage.to/HoSCYRqwn">
     <meta property="og:title" content="Copilot_20260427_181655.png - storage.to">
     <meta property="og:description" content="Send files up to 25GB. No signup. No ads. No tracking. Fast, private file sharing powered by Cloudflare.">
-        <meta property="og:image" content="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777589400&amp;sig=4bcfaebb7be203317ab7db93b325e33d7c8f6d4e931a083e68a15e1d5d7d1029">
+        <meta property="og:image" content="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777588200&amp;sig=a70b87acf28933a35a12ae49ffa4906bbcb3dc393c756d0193061081d2b0619f">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="storage.to">
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copilot_20260427_181655.png - storage.to">
     <meta name="twitter:description" content="Send files up to 25GB. No signup. No ads. No tracking. Fast, private file sharing powered by Cloudflare.">
-        <meta name="twitter:image" content="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777589400&amp;sig=4bcfaebb7be203317ab7db93b325e33d7c8f6d4e931a083e68a15e1d5d7d1029">
+        <meta name="twitter:image" content="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777588200&amp;sig=a70b87acf28933a35a12ae49ffa4906bbcb3dc393c756d0193061081d2b0619f">
     
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
@@ -80,7 +80,7 @@
         gtag('config', 'G-2X4HHTTKKH');
     </script>
 
-    <link rel="preload" as="style" href="https://storage.to/build/assets/app-DSwLMQgR.css" /><link rel="preload" as="style" href="https://storage.to/build/assets/app-BHH8rdGj.css" /><link rel="modulepreload" as="script" href="https://storage.to/build/assets/app-DKpdJGZQ.js" /><link rel="stylesheet" href="https://storage.to/build/assets/app-DSwLMQgR.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://storage.to/build/assets/app-BHH8rdGj.css" data-navigate-track="reload" /><script type="module" src="https://storage.to/build/assets/app-DKpdJGZQ.js" data-navigate-track="reload"></script>
+    <link rel="preload" as="style" href="https://storage.to/build/assets/app-CJ8LNdBE.css" /><link rel="preload" as="style" href="https://storage.to/build/assets/app-BHH8rdGj.css" /><link rel="modulepreload" as="script" href="https://storage.to/build/assets/app-DKpdJGZQ.js" /><link rel="stylesheet" href="https://storage.to/build/assets/app-CJ8LNdBE.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://storage.to/build/assets/app-BHH8rdGj.css" data-navigate-track="reload" /><script type="module" src="https://storage.to/build/assets/app-DKpdJGZQ.js" data-navigate-track="reload"></script>
             <meta name="robots" content="noindex, nofollow">
     
     </head>
@@ -191,8 +191,8 @@
                     <template x-teleport="body">
     <div x-show="open" x-cloak
          wire:ignore.self
-         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-d39e0f03f6e4' }) })"
-         @dropdown-open.window="if ($event.detail.id !== 'dd-d39e0f03f6e4' && open) { open = false }"
+         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-cb7eee74579f' }) })"
+         @dropdown-open.window="if ($event.detail.id !== 'dd-cb7eee74579f' && open) { open = false }"
          @keydown.escape.window="if (open) { open = false }"
          x-anchor.bottom-end.offset.8="$refs.trigger"
          @click.outside="open = false"
@@ -448,7 +448,7 @@
                         this.downloads++;
 
                         try {
-                            const response = await fetch('https://storage.to/HoSCYRqwn/download?expires=1777392505&amp;signature=47552ebcfb0f323d3d1400d9f6f35c5bc9d787dcd4c62260901e46bfa313cbac', {
+                            const response = await fetch('https://storage.to/HoSCYRqwn/download?expires=1777569606&amp;signature=e4f8d3dd49abb9bf7adf4280c2c98c6858ff90ad3b7e284f7ed365c4ad64e4ef', {
                                 headers: { 'Accept': 'application/json' }
                             });
                             const data = await response.json();
@@ -465,7 +465,7 @@
                         } catch (e) {
                             this.downloaded = true;
                             document.title = '✓ ' + document.title.replace(/^✓ /, '');
-                            window.location.href = 'https://storage.to/HoSCYRqwn/download?expires=1777392505&amp;signature=47552ebcfb0f323d3d1400d9f6f35c5bc9d787dcd4c62260901e46bfa313cbac';
+                            window.location.href = 'https://storage.to/HoSCYRqwn/download?expires=1777569606&amp;signature=e4f8d3dd49abb9bf7adf4280c2c98c6858ff90ad3b7e284f7ed365c4ad64e4ef';
                         } finally {
                             this.downloading = false;
                         }
@@ -478,7 +478,7 @@
                     <div class="relative mx-auto mb-8">
                                                     <!-- Image Thumbnail (only show if not password protected) -->
                             <div class="relative mx-auto w-32 h-32 rounded-2xl overflow-hidden ring-2 ring-white/10 shadow-xl">
-                                <img src="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777392000&amp;sig=a476f2341377fa704dae60c0c191459f679462e43f5d12f101c3c8bb051fcdc2"
+                                <img src="https://cdn.storage.to/thumbnails/865d7499-0db1-445f-8583-7bb29396fb42.jpg?expires=1777568400&amp;sig=ad1a15b06d118cde916065d92eeff5c3a0bafe4a5f116c0c6d44ae7788a7da5f"
                                      alt="Copilot_20260427_181655.png"
                                      class="w-full h-full object-cover">
                                 <!-- Image overlay gradient -->
@@ -611,8 +611,8 @@
                         <template x-teleport="body">
     <div x-show="open" x-cloak
          wire:ignore.self
-         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-79a888685f6a' }) })"
-         @dropdown-open.window="if ($event.detail.id !== 'dd-79a888685f6a' && open) { open = false }"
+         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-da8450c45240' }) })"
+         @dropdown-open.window="if ($event.detail.id !== 'dd-da8450c45240' && open) { open = false }"
          @keydown.escape.window="if (open) { open = false }"
          x-anchor.top.offset.8="$refs.trigger"
          @click.outside="open = false"
@@ -791,7 +791,7 @@
                                         headers: {
                                             'Content-Type': 'application/json',
                                             'Accept': 'application/json',
-                                            'X-CSRF-TOKEN': 'PRqeP234js9kQ4EZOIHUYoClHmoZhgSVNx95SRei'
+                                            'X-CSRF-TOKEN': 'I0v4ESaG0vFPf7kNcx1kGpnirds1zFes2ukhQDB6'
                                         },
                                         body: JSON.stringify({ reason, details, email })
                                     })

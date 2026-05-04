@@ -167,3 +167,61 @@
 2026-04-28 09:08:25,661 - module_7_httpx - DEBUG - File downloaded successfully: dog.zip
 2026-04-28 09:44:52,491 - module_6_retrieve_cvs - DEBUG - CVS file updated
 2026-04-28 09:45:35,163 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-28 10:03:10,398 - module_2_games - DEBUG - Game added to the library
+2026-04-28 10:15:57,870 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-29 13:20:11,034 - module_2_games - DEBUG - Game added to the library
+2026-04-29 14:03:53,004 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-29 16:19:39,120 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:20:52,156 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:51:14,476 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:54:31,093 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:55:06,861 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:55:33,680 - module_2_games - DEBUG - Game added to the library
+2026-04-29 16:57:38,626 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 09:59:11,812 - httpcore.connection - DEBUG - connect_tcp.started host='httpbin.org' port=443 local_address=None timeout=0.23842702688046802 socket_options=None
+2026-04-30 09:59:11,938 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x102df5010>
+2026-04-30 09:59:11,938 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x102793140> server_hostname='httpbin.org' timeout=0.23842702688046802
+2026-04-30 09:59:12,161 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x102d725d0>
+2026-04-30 09:59:12,162 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-04-30 09:59:12,163 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-30 09:59:12,163 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-04-30 09:59:12,163 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-30 09:59:12,163 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-04-30 09:59:12,271 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 30 Apr 2026 15:59:12 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'304'), (b'Connection', b'keep-alive'), (b'Server', b'gunicorn/19.9.0'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2026-04-30 09:59:12,272 - httpx - INFO - HTTP Request: GET https://httpbin.org/get "HTTP/1.1 200 OK"
+2026-04-30 09:59:12,273 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-04-30 09:59:12,273 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-30 09:59:12,274 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-30 09:59:12,274 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-30 09:59:12,280 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.to:443
+2026-04-30 09:59:13,350 - urllib3.connectionpool - DEBUG - https://storage.to:443 "GET /HoSCYRqwn HTTP/1.1" 200 None
+2026-04-30 09:59:13,588 - module_7_httpx - DEBUG - File downloaded successfully: /Users/javdev/Documents/Python/Poetry/poetry_demo/src/poetry_demo/data/dog.zip
+2026-04-30 10:20:05,082 - httpcore.connection - DEBUG - connect_tcp.started host='httpbin.org' port=443 local_address=None timeout=0.278884533295334 socket_options=None
+2026-04-30 10:20:05,207 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x104df5010>
+2026-04-30 10:20:05,208 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x104893140> server_hostname='httpbin.org' timeout=0.278884533295334
+2026-04-30 10:20:05,435 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x104d725d0>
+2026-04-30 10:20:05,435 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-04-30 10:20:05,436 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-30 10:20:05,436 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-04-30 10:20:05,436 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-30 10:20:05,436 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-04-30 10:20:05,549 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 30 Apr 2026 16:20:05 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'304'), (b'Connection', b'keep-alive'), (b'Server', b'gunicorn/19.9.0'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2026-04-30 10:20:05,550 - httpx - INFO - HTTP Request: GET https://httpbin.org/get "HTTP/1.1 200 OK"
+2026-04-30 10:20:05,551 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-04-30 10:20:05,551 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-30 10:20:05,551 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-30 10:20:05,551 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-30 10:20:05,556 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.to:443
+2026-04-30 10:20:06,627 - urllib3.connectionpool - DEBUG - https://storage.to:443 "GET /HoSCYRqwn HTTP/1.1" 200 None
+2026-04-30 10:20:06,841 - module_7_httpx - DEBUG - File downloaded successfully: /Users/javdev/Documents/Python/Poetry/poetry_demo/src/poetry_demo/data/dog.zip
+2026-04-30 10:52:24,354 - module_2_games - DEBUG - Game added to the library
+2026-04-30 11:26:06,575 - module_2_games - DEBUG - Game added to the library
+2026-04-30 18:09:17,735 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 18:27:22,792 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 18:28:10,662 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 18:35:19,540 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 18:41:25,477 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 18:54:00,292 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 19:06:44,371 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 19:07:31,456 - module_6_retrieve_cvs - INFO - CVS file updated
+2026-04-30 19:07:46,259 - module_6_retrieve_cvs - INFO - CVS file updated

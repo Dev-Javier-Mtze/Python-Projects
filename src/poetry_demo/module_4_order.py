@@ -101,8 +101,9 @@ def retrieve_order(order):
     return new_order
 
 
-order = main()
-order_out = complete_order(order)
-print(f"Order out: {order_out}")
-order_in = retrieve_order(order_out)
-print(order_in)
+if __name__ == "__main__":
+    order = main()
+    order_out = complete_order(order)
+    print(f"Order out: {order_out}")
+    order_in = retrieve_order(order_out)
+    print(order_in)

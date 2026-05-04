@@ -1,11 +1,3 @@
-# import logging
-
-# # Configuración básica
-# logging.basicConfig(
-#     level=logging.DEBUG,  # Se registran todos los niveles desde DEBUG hacia arriba
-#     format="%(asctime)s - %(levelname)s - %(message)s"
-# )
-
 import logging
 import logging.config
 
