@@ -1,17 +1,17 @@
 import os
 import random
 
-from models.int_module_1_sql import Order, OrderItem, User
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-print(BASE_DIR)
-PROJECT_ROOT = os.path.dirname(BASE_DIR)
-print(PROJECT_ROOT)
-DATABASE_URL = (
-    f"sqlite:///{os.path.join(PROJECT_ROOT, 'poetry_demo/data', 'mi_base.db')}"
-)
+from poetry_demo.models.int_module_1_sql import Order, OrderItem, User
+from poetry_demo.utils import base_dir, logging_console_file
+
+DATABASE_URL = f"sqlite:///{os.path.join(base_dir.url_dir(), 'data', 'mi_base.db')}"
+if __name__ == "__main__":
+    logger = logging_console_file.logging_file("int_module_1_crud")
+    logger.info(" - - - - - - Start of the test - - - - - - ")
+
 engine = create_engine(DATABASE_URL, echo=True)
 
 name = input("Give me a name:\n")
@@ -22,7 +22,6 @@ quantity = random.randint(1, 1000)
 total = random.randint(1, 1000)
 discount = random.choice([True, False])
 
-# Insertar datos
 with Session(engine) as session:
     nuevo_usuario = User(name=name)
     session.add(nuevo_usuario)
@@ -34,20 +33,21 @@ with Session(engine) as session:
     session.commit()
 
 with Session(engine) as session:
-    order = OrderItem(
+    order_item = OrderItem(
         order_id=order_id, name=name, quantity=quantity, total=total, discount=discount
     )
-    session.add(order)
+    session.add(order_item)
     session.commit()
 
-# Consultar datos
 with Session(engine) as session:
     usuarios = session.query(User).all()
     for u in usuarios:
-        print(u.id, u.name)
+        logger.debug(f"{u.id}, {u.name}")
 
 
 with Session(engine) as session:
-    order_item = session.query(OrderItem).all()
-    for u in order_item:
-        print(u.id, u.order_id, u.name, u.quantity, u.total, u.discount)
+    list_of_order_item = session.query(OrderItem).all()
+    for items in list_of_order_item:
+        logger.debug(
+            f"{items.id}, {items.order_id}, {items.name}, {items.quantity}, {items.total}, {items.discount}"
+        )

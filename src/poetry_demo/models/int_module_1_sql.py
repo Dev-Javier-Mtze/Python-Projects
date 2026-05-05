@@ -10,7 +10,7 @@ from sqlalchemy import (
     String,
     create_engine,
 )
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy.orm import DeclarativeBase, relationship
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print(BASE_DIR)
@@ -20,7 +20,9 @@ DATABASE_URL = f"sqlite:///{os.path.join(PROJECT_ROOT, 'data', 'mi_base.db')}"
 
 engine = create_engine(DATABASE_URL, echo=True)
 
-Base = declarative_base()
+
+class Base(DeclarativeBase):
+    pass
 
 
 class Main(Base):

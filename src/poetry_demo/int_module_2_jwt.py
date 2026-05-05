@@ -1,18 +1,23 @@
 from fastapi import FastAPI, HTTPException
 
-fake_users_db = {"alice": "1234"}
+from poetry_demo.utils import logging_console_file
+
+fake_users_db = {"ricardo": "0202"}
 app = FastAPI()
 
 
 @app.post("/login")
 def login(username: str, password: str):
     if fake_users_db.get(username) != password:
-        raise HTTPException(status_code=400, detail="Credenciales inválidas")
+        raise HTTPException(status_code=400, detail="Bad credentials")
     else:
-        print("Login successful")
+        logger.debug("Login successful")
 
 
-try:
-    login("alice", "1234")
-except Exception as e:
-    print(f"{e}")
+if __name__ == "__main__":
+    logger = logging_console_file.logging_file("int_module_2_jwt")
+    logger.info(" - - - - - - Start of the test - - - - - - ")
+    try:
+        login("ricardo", "0202")
+    except Exception as e:
+        print(f"{e}")

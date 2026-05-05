@@ -1,19 +1,16 @@
-import logging
 import random
 import time
 from contextlib import contextmanager
 
 import backoff
 import requests
-from logging_config import setup_logging
 from requests.exceptions import HTTPError
 
-setup_logging()
-logger = logging.getLogger("module_3_backoff")
+from poetry_demo.utils import logging_console_file
 
 
 def fatal_error(details):
-    print(f"Giving up after {details['tries']} tries.")
+    logger.warning(f"Giving up after {details['tries']} tries.")
     return
 
 
@@ -24,7 +21,6 @@ def fatal_error(details):
     on_giveup=fatal_error,
 )
 def llamar_api(url):
-    print("Intentando llamada...")
     logger.debug(f"Intentando llamar: {url}")
 
     response = requests.get(url)
@@ -35,7 +31,6 @@ def llamar_api(url):
 
 def url():
     url = random.choice(["https://httpbin.org/get", "https://httpbin.org/status/500"])
-    print(url)
     return url
 
 
@@ -52,17 +47,15 @@ def timer(description):
     datos = list(range(int(start), int(end)))
     for lote in batch_generator(datos, 5):
         print(lote)
-    print(f"{description}: {end - start:.4f} segundos")
+    logger.debug(f"{description}: {end - start:.4f} segundos")
 
 
-with timer("API call ends at"):
-    url = url()
-    time.sleep(4)
-    try:
-        print(llamar_api(url))
-    except Exception:
-        print("Error calling the endpoint")
-
-datos = list(range(1, 21))
-# for lote in batch_generator(datos, 5):
-#     print(lote)
+if __name__ == "__main__":
+    logger = logging_console_file.logging_file("module_3_backoff")
+    logger.info(" - - - - - - Start of the test - - - - - - ")
+    with timer("API call ends at"):
+        url = url()
+        try:
+            logger.debug(llamar_api(url))
+        except Exception:
+            logger.debug("Error calling the endpoint")

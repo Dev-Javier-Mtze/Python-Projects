@@ -1,14 +1,14 @@
 import random
 import sqlite3
 
-from models.int_module_1_sql import Order, OrderItem, User
+from poetry_demo.models.int_module_1_sql import Order, OrderItem, User
 
 conn = sqlite3.connect(":memory:")
 
 name = input("Give me a name:\n")
-user_id = int(input("Give me a number:\n"))
+user_number = int(input("Give me a number:\n"))
 user_order = random.choice(["small", "medium", "large"])
-order_id = int(input("Give me an id:\n"))
+order_number = int(input("Give me an id:\n"))
 quantity = random.randint(1, 1000)
 total = random.randint(1, 1000)
 discount = random.choice([True, False])
@@ -49,17 +49,17 @@ CREATE TABLE order_items (
 
 nuevo_usuario = User(name=name)
 
-order = Order(user_id=user_id, user_order=user_order)
+order = Order(user_id=user_number, user_order=user_order)
 
 order_item = OrderItem(
-    order_id=order_id, name=name, quantity=quantity, total=total, discount=discount
+    order_id=order_number, name=name, quantity=quantity, total=total, discount=discount
 )
 
 
 cursor.execute("INSERT INTO users (name) VALUES (?)", [nuevo_usuario.name])
 conn.commit()
 
-user_id = cursor.lastrowid
+user_id: int | None = cursor.lastrowid
 
 
 cursor.execute(
@@ -68,7 +68,7 @@ cursor.execute(
 )
 conn.commit()
 
-order_id = cursor.lastrowid
+order_id: int | None = cursor.lastrowid
 
 cursor.execute(
     "INSERT INTO order_items (order_id, name, quantity, total, discount) VALUES (?, ?, ?, ?, ?)",

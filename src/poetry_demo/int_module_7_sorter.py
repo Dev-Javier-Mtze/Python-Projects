@@ -1,24 +1,31 @@
 # 1. Importar librerías
-import joblib
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
+import os
+from typing import List
 
-X = [
+import joblib  # type: ignore
+from sklearn.ensemble import RandomForestClassifier  # type: ignore
+from sklearn.feature_extraction.text import CountVectorizer  # type: ignore
+from sklearn.metrics import accuracy_score  # type: ignore
+from sklearn.model_selection import train_test_split  # type: ignore
+from sklearn.naive_bayes import MultinomialNB  # type: ignore
+
+from poetry_demo.utils import base_dir
+
+URL = f"{os.path.join(base_dir.url_dir(), 'data', 'modelo_rf.pkl')}"
+
+first_list = [
     "futbol",
     "book",
     "tennis",
     "library",
 ]
-y = ["good", "bad", "good", "bad"]
+first_list_outcomes = ["good", "bad", "good", "bad"]
 
 vectorizer = CountVectorizer()
-X_vect = vectorizer.fit_transform(X)
+X_vect = vectorizer.fit_transform(first_list)
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X_vect, y, test_size=0.25, random_state=42
+    X_vect, first_list_outcomes, test_size=0.25, random_state=42
 )
 
 clf = MultinomialNB()
@@ -34,13 +41,13 @@ nuevo_vect = vectorizer.transform(nuevo)
 print("Predicción:", clf.predict(nuevo_vect))
 
 
-X = [
+X: List[str] = [
     "me gusta los podcast",
     "no es buena la avena",
     "me gusta el helado",
     "no es bueno gritar",
 ]
-y = [1, 0, 1, 0]
+y: List[int] = [1, 0, 1, 0]
 vectorizer = CountVectorizer()
 X_vect = vectorizer.fit_transform(X)
 
@@ -48,9 +55,9 @@ X_vect = vectorizer.fit_transform(X)
 clf = RandomForestClassifier(random_state=42)
 clf.fit(X_vect, y)
 
-joblib.dump((vectorizer, clf), "modelo_rf.pkl")
+joblib.dump((vectorizer, clf), URL)
 
-vectorizer_cargado, modelo_cargado = joblib.load("modelo_rf.pkl")
+vectorizer_cargado, modelo_cargado = joblib.load(URL)
 
 ejemplo = input("Dame una frase:\n")
 nuevo = [ejemplo]

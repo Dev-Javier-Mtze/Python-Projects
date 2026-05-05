@@ -19,6 +19,7 @@ python-jose = "^3.5.0"
 hypothesis = "^6.152.4"
 coverage = "^7.13.5"
 scikit-learn = "^1.8.0"
+types-requests = "^2.33.0.20260503"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
@@ -35,5 +36,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
 line-length = 88
+
+[tool.ruff.lint]
 select = ["E", "F", "I"]  # Ejemplo: errores, fallos, imports
 ignore = ["E501"]         # Ignorar longitud de línea

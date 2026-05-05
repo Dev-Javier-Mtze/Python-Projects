@@ -1,0 +1,80 @@
+2026-05-05 11:05:43,965 - INFO - fund_module_2_games.py:85 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 11:05:45,737 - DEBUG - fund_module_2_games.py:36 - Game already in the library
+2026-05-05 11:05:45,737 - DEBUG - fund_module_2_games.py:37 - Your game is Bioshock with a rating of 9
+2026-05-05 11:05:45,738 - DEBUG - fund_module_2_games.py:77 - The games that we found above 7 in rating are:
+2026-05-05 11:05:45,738 - DEBUG - fund_module_2_games.py:80 - Name: Gears of war with a rating of 10
+2026-05-05 11:05:45,738 - DEBUG - fund_module_2_games.py:80 - Name: Tetris with a rating of 8
+2026-05-05 11:05:45,738 - DEBUG - fund_module_2_games.py:80 - Name: Bioshock with a rating of 9
+2026-05-05 11:27:36,011 - INFO - fund_module_2_games.py:85 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 11:27:38,288 - DEBUG - fund_module_2_games.py:36 - Game already in the library
+2026-05-05 11:27:38,289 - DEBUG - fund_module_2_games.py:37 - Your game is Bioshock with a rating of 9
+2026-05-05 11:27:38,289 - DEBUG - fund_module_2_games.py:77 - The games that we found above 7 in rating are:
+2026-05-05 11:27:38,289 - DEBUG - fund_module_2_games.py:80 - Name: Gears of war with a rating of 10
+2026-05-05 11:27:38,289 - DEBUG - fund_module_2_games.py:80 - Name: Tetris with a rating of 8
+2026-05-05 11:27:38,289 - DEBUG - fund_module_2_games.py:80 - Name: Bioshock with a rating of 9
+2026-05-05 11:31:13,148 - INFO - fund_module_6_retrieve_cvs.py:44 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 11:31:13,152 - DEBUG - fund_module_6_retrieve_cvs.py:20 -     Id     Name                Email         Phone
+0    0   Javier   javier@example.com  722-234-0934
+1    1     Luis     luis@example.com  722-555-7463
+2    2  Mariana  mariana@example.com  722-324-8596
+3    3   Ximena   ximena@example.com  722-945-9393
+4    4  Ricardo  ricardo@example.com  722-237-7529
+5    5     Omar     omar@example.com  722-748-6623
+6    6    Mario    mario@example.com  722-987-2376
+7    7    Cesar    cesar@example.com  722-639-0992
+8    8    Cesar    cesar@example.com  722-639-0992
+9    9    Paola    paola@example.com  722-127-9380
+10  10   Ximena   ximena@example.com  722-344-9366
+11  11    Laura    laura@example.com  722-101-2525
+12  12   Manolo   manolo@example.com  722-343-3943
+13  13     Lalo     lalo@example.com  722-890-0044
+14  14     Jose     jose@hotmail.com  722-189-7676
+15  15   Manolo   manolo@example.com  722-871-8398
+2026-05-05 11:31:36,224 - INFO - fund_module_6_retrieve_cvs.py:36 - CVS file updated
+2026-05-05 11:31:36,226 - DEBUG - fund_module_6_retrieve_cvs.py:38 -     Id     Name                Email         Phone
+0    0   Javier   javier@example.com  722-234-0934
+1    1     Luis     luis@example.com  722-555-7463
+2    2  Mariana  mariana@example.com  722-324-8596
+3    3   Ximena   ximena@example.com  722-945-9393
+4    4  Ricardo  ricardo@example.com  722-237-7529
+5    5     Omar     omar@example.com  722-748-6623
+6    6    Mario    mario@example.com  722-987-2376
+7    7    Cesar    cesar@example.com  722-639-0992
+8    8    Cesar    cesar@example.com  722-639-0992
+9    9    Paola    paola@example.com  722-127-9380
+10  10   Ximena   ximena@example.com  722-344-9366
+11  11    Laura    laura@example.com  722-101-2525
+12  12   Manolo   manolo@example.com  722-343-3943
+13  13     Lalo     lalo@example.com  722-890-0044
+14  14     Jose     jose@hotmail.com  722-189-7676
+15  15   Manolo   manolo@example.com  722-871-8398
+16  16     Lupe     lupe@hotmail.com  722-938-9983
+2026-05-05 11:31:36,239 - DEBUG - fund_module_6_retrieve_cvs.py:50 - Without the duplicates, we have:
+2026-05-05 11:31:36,240 - DEBUG - fund_module_6_retrieve_cvs.py:51 -     Id    Name               Email         Phone
+6    6   Mario   mario@example.com  722-987-2376
+7    7   Cesar   cesar@example.com  722-639-0992
+9    9   Paola   paola@example.com  722-127-9380
+10  10  Ximena  ximena@example.com  722-344-9366
+11  11   Laura   laura@example.com  722-101-2525
+12  12  Manolo  manolo@example.com  722-343-3943
+13  13    Lalo    lalo@example.com  722-890-0044
+14  14    Jose    jose@hotmail.com  722-189-7676
+16  16    Lupe    lupe@hotmail.com  722-938-9983
+2026-05-05 12:31:59,239 - INFO - int_module_6_cache.py:47 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 12:31:59,715 - DEBUG - int_module_6_cache.py:43 - Response: 187.235.146.8
+2026-05-05 12:32:17,294 - INFO - int_module_6_cache.py:47 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 12:32:17,762 - DEBUG - int_module_6_cache.py:43 - Response: 187.235.146.8
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 0
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 12
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 24
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 36
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 48
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 60
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 72
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 84
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 96
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 108
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 120
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 132
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:49 - Same result, we use cache
+2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:50 - Same result, we use cache

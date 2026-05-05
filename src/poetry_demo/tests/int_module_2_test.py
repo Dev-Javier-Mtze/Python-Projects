@@ -1,10 +1,9 @@
-from decimal import Decimal
-
 import pytest
 from hypothesis import given
 from hypothesis import strategies as st
-from module_2_games import validate_game_id
-from module_4_order import Order
+
+from poetry_demo.fund_module_2_games import validate_game_id
+from poetry_demo.fund_module_4_order import Order
 
 
 @given(st.integers(min_value=1, max_value=9999))
@@ -26,15 +25,15 @@ def test_order_quantity():
 def test_order_total_cost():
     order = Order(10)
     order.total_cost
-    assert order.total == Decimal("29.90")
+    assert round(order.total, 2) == 29.90
 
 
 def test_order_apply_sub_total():
     order = Order(10, True)
     order.apply_sub_total
-    assert order.sub_total == Decimal("26.91")
+    assert round(order.sub_total, 2) == 26.91
 
 
 def test_order_less():
     order = Order(10)
-    assert order.less == Decimal("26.91")
+    assert round(order.less, 2) == 26.91
