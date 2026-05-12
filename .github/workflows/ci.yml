@@ -1,0 +1,38 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Lint
+        run: poetry run ruff check src/
+
+      - name: Type-check
+        run: poetry run mypy src/
+
+      - name: Run tests
+        run: poetry run pytest
+
+      - name: Build package
+        run: poetry build
+
+      - name: Build Docker image
+        run: docker build -t my-registry/poetry_demo:latest .
+
+      # - name: Push Docker image
+      #   run: docker push my-registry/poetry_demo:latest

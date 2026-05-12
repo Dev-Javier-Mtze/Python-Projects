@@ -1,5 +1,5 @@
-from abc import abstractmethod
 from functools import cache
+from typing import Protocol
 
 import requests
 
@@ -13,8 +13,7 @@ def infinity(n):
     return "Same result, we use cache"
 
 
-class Port:
-    @abstractmethod
+class Port(Protocol):
     def get_data(self) -> float:
         pass
 

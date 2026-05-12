@@ -36,4 +36,4 @@ def test_order_apply_sub_total():
 
 def test_order_less():
     order = Order(10)
-    assert round(order.less, 2) == 26.91
+    assert round(order.discount_calc, 2) == 26.91

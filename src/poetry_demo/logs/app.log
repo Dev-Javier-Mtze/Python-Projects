@@ -78,3 +78,406 @@
 2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:10 - 132
 2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:49 - Same result, we use cache
 2026-05-05 12:32:17,763 - DEBUG - int_module_6_cache.py:50 - Same result, we use cache
+2026-05-05 12:40:27,252 - INFO - int_module_6_cache.py:50 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 12:40:27,733 - DEBUG - int_module_6_cache.py:45 - Response: 187.235.146.8
+2026-05-05 12:40:27,733 - DEBUG - int_module_6_cache.py:13 - 0
+2026-05-05 12:40:27,733 - DEBUG - int_module_6_cache.py:13 - 12
+2026-05-05 12:40:27,733 - DEBUG - int_module_6_cache.py:13 - 24
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 36
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 48
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 60
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 72
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 84
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 96
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 108
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 120
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:13 - 132
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:52 - Same result, we use cache
+2026-05-05 12:40:27,734 - DEBUG - int_module_6_cache.py:53 - Same result, we use cache
+2026-05-05 15:32:43,327 - INFO - int_module_1_crud.py:13 -  - - - - - - Start of the test - - - - - - 
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 1, Lalo
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 2, Ricardo
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 3, Federico
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 4, Ximena
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 5, Patricio
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 6, Ricardo
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 7, Fede
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 8, Penelope
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 9, Shoyo
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 10, Jerico
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 11, Pedro
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 12, josua
+2026-05-05 15:32:49,582 - DEBUG - int_module_1_crud.py:45 - 13, pedro
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 1, 546, Lalo, 115, 829.0, False
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 2, 12, Ricardo, 949, 823.0, False
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 3, 34, Federico, 744, 654.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 4, 0, Ximena, 993, 57.0, False
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 5, 3334, Patricio, 662, 44.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 6, 12, Ricardo, 411, 114.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 7, 50, Fede, 699, 789.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 8, 234, Penelope, 424, 96.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 9, 166, Shoyo, 119, 4.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 10, 66, Jerico, 676, 623.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 11, 748, Pedro, 282, 155.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 12, 899, josua, 874, 706.0, True
+2026-05-05 15:32:49,583 - DEBUG - int_module_1_crud.py:51 - 13, 44, pedro, 545, 516.0, True
+2026-05-06 10:04:30,294 - INFO - int_module_6_cache.py:48 -  - - - - - - Start of the test - - - - - - 
+2026-05-06 10:04:30,723 - DEBUG - int_module_6_cache.py:43 - Response: 187.235.104.24
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 0
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 12
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 24
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 36
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 48
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 60
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 72
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 84
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 96
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 108
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 120
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:12 - 132
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:50 - Same result, we use cache
+2026-05-06 10:04:30,724 - DEBUG - int_module_6_cache.py:51 - Same result, we use cache
+2026-05-06 10:14:24,380 - INFO - int_module_6_cache.py:48 -  - - - - - - Start of the test - - - - - - 
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:43 - Response: 187.235.104.24
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 0
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 12
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 24
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 36
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 48
+2026-05-06 10:14:24,782 - DEBUG - int_module_6_cache.py:12 - 60
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 72
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 84
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 96
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 108
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 120
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:12 - 132
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:50 - Same result, we use cache
+2026-05-06 10:14:24,783 - DEBUG - int_module_6_cache.py:51 - Same result, we use cache
+2026-05-11 12:19:45,635 - INFO - fund_module_4_order.py:109 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 12:19:48,555 - DEBUG - fund_module_4_order.py:64 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 12:19:48,556 - DEBUG - fund_module_4_order.py:67 - The total cost of your order is: $134.55
+2026-05-11 12:19:48,556 - DEBUG - fund_module_4_order.py:71 - Last week you order was 1 donuts. And a total of $2.99
+2026-05-11 12:19:48,556 - DEBUG - fund_module_4_order.py:78 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 12:19:48,556 - DEBUG - fund_module_4_order.py:82 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 12:19:48,557 - DEBUG - fund_module_4_order.py:112 - Order out: quantity=45 sub_total=134.55 discount=True total=121.1
+2026-05-11 12:19:48,557 - DEBUG - fund_module_4_order.py:114 - quantity=45 sub_total=134.55 discount=True total=121.1
+2026-05-11 15:23:06,172 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:24:50,541 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:25:53,513 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:25:56,795 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:25:56,796 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:26:29,187 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:26:30,244 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:26:30,244 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:27:29,123 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:27:30,530 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:27:30,530 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:28:00,087 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:28:01,385 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:28:01,386 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:28:11,283 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:28:12,891 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:28:12,891 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:29:31,937 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:29:33,502 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:29:33,502 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:30:31,427 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:30:32,708 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:30:32,708 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:31:44,643 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:31:45,960 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:31:45,960 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:33:27,177 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:33:27,968 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:34:06,701 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:34:07,721 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:36:12,851 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:36:13,393 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:36:13,393 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:38:07,922 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:38:09,485 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:38:09,485 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:38:09,485 - DEBUG - fund_module_4_order.py:143 - Order out: quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 15:38:09,486 - DEBUG - fund_module_4_order.py:145 - quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 15:39:47,799 - INFO - fund_module_4_order.py:140 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:39:48,539 - DEBUG - fund_module_4_order.py:52 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:39:48,540 - DEBUG - fund_module_4_order.py:56 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:39:48,540 - DEBUG - fund_module_4_order.py:143 - Order out: quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:39:48,540 - DEBUG - fund_module_4_order.py:145 - quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:41:20,215 - INFO - fund_module_4_order.py:141 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:41:20,843 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 15:41:20,843 - DEBUG - fund_module_4_order.py:54 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:41:20,843 - DEBUG - fund_module_4_order.py:58 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:41:20,844 - DEBUG - fund_module_4_order.py:144 - Order out: quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:41:20,844 - DEBUG - fund_module_4_order.py:146 - quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:41:51,445 - INFO - fund_module_4_order.py:142 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:41:52,028 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 15:41:52,028 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 15:41:52,029 - DEBUG - fund_module_4_order.py:55 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:41:52,029 - DEBUG - fund_module_4_order.py:59 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:41:52,029 - DEBUG - fund_module_4_order.py:145 - Order out: quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:41:52,029 - DEBUG - fund_module_4_order.py:147 - quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:42:50,659 - INFO - fund_module_4_order.py:145 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:42:51,132 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 15:42:51,132 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 15:42:51,133 - DEBUG - fund_module_4_order.py:52 - Last week you order was 7 donuts. And a total of $20.93
+2026-05-11 15:42:51,133 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 15:42:51,133 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 15:42:51,133 - DEBUG - fund_module_4_order.py:148 - Order out: quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:42:51,134 - DEBUG - fund_module_4_order.py:150 - quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 15:42:58,350 - INFO - fund_module_4_order.py:145 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 15:42:58,965 - DEBUG - fund_module_4_order.py:50 - Your order: 1 donuts. Price per donut: $2.99
+2026-05-11 15:42:58,965 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $2.99
+2026-05-11 15:42:58,966 - DEBUG - fund_module_4_order.py:52 - Last week you order was 7 donuts. And a total of $20.93
+2026-05-11 15:42:58,966 - DEBUG - fund_module_4_order.py:56 - Your total is $2.99
+2026-05-11 15:42:58,966 - DEBUG - fund_module_4_order.py:148 - Order out: quantity=1 sub_total=2.99 discount=False total=2.99
+2026-05-11 15:42:58,966 - DEBUG - fund_module_4_order.py:150 - quantity=1 sub_total=2.99 discount=False total=2.99
+2026-05-11 17:21:21,065 - INFO - fund_module_4_order.py:121 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:21:21,741 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:21:21,742 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:21:21,742 - DEBUG - fund_module_4_order.py:52 - Last week you order was 7 donuts. And a total of $20.93
+2026-05-11 17:21:21,742 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:21:21,742 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:21:38,350 - INFO - fund_module_4_order.py:121 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:21:38,829 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:21:38,829 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:21:38,829 - DEBUG - fund_module_4_order.py:52 - Last week you order was 10 donuts. And a total of $29.90
+2026-05-11 17:21:38,829 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:21:38,829 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:21:38,830 - DEBUG - fund_module_4_order.py:125 - Order out: quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 17:21:38,830 - DEBUG - fund_module_4_order.py:127 - quantity=45 sub_total=134.55 discount=True total=121.09500000000001
+2026-05-11 17:24:17,263 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:52 - Last week you order was 2 donuts. And a total of $5.98
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:24:17,758 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.09500000000001}
+2026-05-11 17:24:44,805 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:24:45,610 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:24:45,610 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:24:45,611 - DEBUG - fund_module_4_order.py:52 - Last week you order was 8 donuts. And a total of $23.92
+2026-05-11 17:24:45,611 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:24:45,611 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:24:45,611 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.09500000000001}
+2026-05-11 17:27:29,674 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:27:30,115 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:27:30,116 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:27:30,116 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 17:27:30,116 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:27:30,116 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:27:30,116 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 121.09500000000001, 'discount': True, 'total': 134.55}
+2026-05-11 17:28:45,771 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:28:46,224 - DEBUG - fund_module_4_order.py:50 - Your order: 1 donuts. Price per donut: $2.99
+2026-05-11 17:28:46,225 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $2.99
+2026-05-11 17:28:46,225 - DEBUG - fund_module_4_order.py:52 - Last week you order was 7 donuts. And a total of $20.93
+2026-05-11 17:28:46,225 - DEBUG - fund_module_4_order.py:56 - Your total is $2.99
+2026-05-11 17:28:46,225 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 1, 'sub_total': 2.99, 'discount': False, 'total': 2.99}
+2026-05-11 17:28:56,347 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:52 - Last week you order was 6 donuts. And a total of $17.94
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:28:57,781 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 121.09500000000001, 'discount': True, 'total': 134.55}
+2026-05-11 17:30:12,819 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:30:13,426 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:30:13,426 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:30:13,426 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 17:30:13,426 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:30:13,426 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:30:13,427 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.09500000000001}
+2026-05-11 17:33:27,508 - INFO - fund_module_4_order.py:119 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:33:28,702 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:33:28,702 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:33:28,702 - DEBUG - fund_module_4_order.py:52 - Last week you order was 1 donuts. And a total of $2.99
+2026-05-11 17:33:28,702 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:33:28,702 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:33:28,703 - DEBUG - fund_module_4_order.py:123 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
+2026-05-11 17:36:14,347 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:36:14,970 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:36:14,970 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:36:14,971 - DEBUG - fund_module_4_order.py:52 - Last week you order was 10 donuts. And a total of $29.90
+2026-05-11 17:36:14,971 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:36:14,971 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:36:14,971 - DEBUG - fund_module_4_order.py:118 - Order out: quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 17:37:13,953 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:37:14,948 - DEBUG - fund_module_4_order.py:50 - Your order: 4545 donuts. Price per donut: $2.99
+2026-05-11 17:37:14,949 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $13589.55
+2026-05-11 17:37:14,949 - DEBUG - fund_module_4_order.py:52 - Last week you order was 2 donuts. And a total of $5.98
+2026-05-11 17:37:14,949 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:37:14,949 - DEBUG - fund_module_4_order.py:62 - Your total was $13589.55, but with your discount, your new total is: $12230.60
+2026-05-11 17:37:26,680 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:37:27,521 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:37:27,521 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:37:27,521 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 17:37:27,521 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:37:27,521 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:37:27,522 - DEBUG - fund_module_4_order.py:118 - Order out: quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 17:38:11,271 - INFO - fund_module_4_order.py:115 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:38:12,057 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:38:12,057 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:38:12,058 - DEBUG - fund_module_4_order.py:52 - Last week you order was 5 donuts. And a total of $14.95
+2026-05-11 17:38:12,058 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:38:12,058 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:38:36,361 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:38:37,082 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:38:37,082 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:38:37,083 - DEBUG - fund_module_4_order.py:52 - Last week you order was 6 donuts. And a total of $17.94
+2026-05-11 17:38:37,083 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:38:37,083 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:38:37,083 - DEBUG - fund_module_4_order.py:118 - Order out: quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 17:38:58,357 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:38:58,964 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:38:58,964 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:38:58,964 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 17:38:58,964 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:38:58,965 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:38:58,965 - DEBUG - fund_module_4_order.py:118 - Order out: <class '__main__.OrderIn'>
+2026-05-11 17:39:51,102 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:39:51,691 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:39:51,692 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:39:51,692 - DEBUG - fund_module_4_order.py:52 - Last week you order was 5 donuts. And a total of $14.95
+2026-05-11 17:39:51,692 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:39:51,692 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:39:51,692 - DEBUG - fund_module_4_order.py:118 - Order out: quantity=45 sub_total=121.09500000000001 discount=True total=134.55
+2026-05-11 17:41:38,007 - INFO - fund_module_4_order.py:114 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:41:38,870 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:41:38,870 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:41:38,870 - DEBUG - fund_module_4_order.py:52 - Last week you order was 5 donuts. And a total of $14.95
+2026-05-11 17:41:38,870 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:41:38,870 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:41:38,871 - DEBUG - fund_module_4_order.py:118 - Order out: {'quantity': 45, 'sub_total': 121.09500000000001, 'discount': True, 'total': 134.55}
+2026-05-11 17:42:00,814 - INFO - fund_module_4_order.py:103 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:42:01,468 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:42:01,468 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:42:01,469 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 17:42:01,469 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:42:01,469 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:42:01,469 - DEBUG - fund_module_4_order.py:107 - Order out: {'quantity': 45, 'sub_total': 121.09500000000001, 'discount': True, 'total': 134.55}
+2026-05-11 17:44:50,364 - INFO - fund_module_4_order.py:103 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:44:51,512 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:44:51,513 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:44:51,513 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 17:44:51,513 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:44:51,513 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:44:51,513 - DEBUG - fund_module_4_order.py:107 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 17:51:44,395 - INFO - fund_module_4_order.py:105 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:51:45,127 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:51:45,127 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:51:45,127 - DEBUG - fund_module_4_order.py:52 - Last week you order was 2 donuts. And a total of $5.98
+2026-05-11 17:51:45,127 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:51:45,127 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:53:08,690 - INFO - fund_module_4_order.py:107 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 17:53:09,367 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 17:53:09,368 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 17:53:09,368 - DEBUG - fund_module_4_order.py:52 - Last week you order was 1 donuts. And a total of $2.99
+2026-05-11 17:53:09,368 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 17:53:09,368 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 17:53:09,368 - DEBUG - fund_module_4_order.py:95 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 18:00:44,182 - INFO - fund_module_4_order.py:117 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:00:44,970 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:00:44,971 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:00:44,971 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 18:00:44,971 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:00:44,971 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:01:36,626 - INFO - fund_module_4_order.py:116 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:01:37,380 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:01:37,380 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:01:37,380 - DEBUG - fund_module_4_order.py:52 - Last week you order was 1 donuts. And a total of $2.99
+2026-05-11 18:01:37,380 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:01:37,380 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:01:37,381 - DEBUG - fund_module_4_order.py:110 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 18:04:24,123 - INFO - fund_module_4_order.py:124 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:04:24,710 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:04:24,710 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:04:24,710 - DEBUG - fund_module_4_order.py:52 - Last week you order was 9 donuts. And a total of $26.91
+2026-05-11 18:04:24,710 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:04:24,710 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:04:38,732 - INFO - fund_module_4_order.py:124 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:04:39,204 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:04:39,205 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:04:39,205 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 18:04:39,205 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:04:39,205 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:06:05,360 - INFO - fund_module_4_order.py:128 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:06:05,891 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:96 - Order out: 0
+2026-05-11 18:06:05,892 - DEBUG - fund_module_4_order.py:122 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 18:06:58,630 - INFO - fund_module_4_order.py:128 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:06:59,412 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:06:59,413 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:06:59,413 - DEBUG - fund_module_4_order.py:52 - Last week you order was 5 donuts. And a total of $14.95
+2026-05-11 18:06:59,413 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:06:59,413 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:06:59,414 - DEBUG - fund_module_4_order.py:96 - Order out: 0
+2026-05-11 18:06:59,414 - DEBUG - fund_module_4_order.py:122 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 18:08:12,043 - INFO - fund_module_4_order.py:128 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:08:12,593 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:08:12,593 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:08:12,593 - DEBUG - fund_module_4_order.py:52 - Last week you order was 2 donuts. And a total of $5.98
+2026-05-11 18:08:12,594 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:08:12,594 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:08:12,594 - DEBUG - fund_module_4_order.py:96 - Order out: 0
+2026-05-11 18:08:12,594 - DEBUG - fund_module_4_order.py:122 - Order out: {'quantity': 45, 'sub_total': 121.1, 'discount': True, 'total': 134.55}
+2026-05-11 18:09:39,725 - INFO - fund_module_4_order.py:127 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:09:40,201 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:09:40,202 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:09:40,202 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 18:09:40,202 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:09:40,202 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:09:40,203 - DEBUG - fund_module_4_order.py:96 - Order out: 0
+2026-05-11 18:09:40,203 - DEBUG - fund_module_4_order.py:121 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
+2026-05-11 18:10:05,490 - INFO - fund_module_4_order.py:128 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:10:05,960 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:52 - Last week you order was 2 donuts. And a total of $5.98
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:97 - Order out: 0
+2026-05-11 18:10:05,961 - DEBUG - fund_module_4_order.py:122 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
+2026-05-11 18:10:55,677 - INFO - fund_module_4_order.py:127 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:10:57,809 - DEBUG - fund_module_4_order.py:50 - Your order: 445 donuts. Price per donut: $2.99
+2026-05-11 18:10:57,810 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $1330.55
+2026-05-11 18:10:57,810 - DEBUG - fund_module_4_order.py:52 - Last week you order was 5 donuts. And a total of $14.95
+2026-05-11 18:10:57,810 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:10:57,810 - DEBUG - fund_module_4_order.py:62 - Your total was $1330.55, but with your discount, your new total is: $1197.49
+2026-05-11 18:11:01,004 - INFO - fund_module_4_order.py:127 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:11:01,782 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:11:01,783 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:11:01,783 - DEBUG - fund_module_4_order.py:52 - Last week you order was 3 donuts. And a total of $8.97
+2026-05-11 18:11:01,783 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:11:01,783 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:11:52,462 - INFO - fund_module_4_order.py:128 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:11:53,209 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:11:53,209 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:11:53,209 - DEBUG - fund_module_4_order.py:52 - Last week you order was 8 donuts. And a total of $23.92
+2026-05-11 18:11:53,209 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:11:53,209 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:12:30,650 - INFO - fund_module_4_order.py:127 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:12:31,304 - DEBUG - fund_module_4_order.py:50 - Your order: 45 donuts. Price per donut: $2.99
+2026-05-11 18:12:31,305 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $134.55
+2026-05-11 18:12:31,305 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 18:12:31,305 - DEBUG - fund_module_4_order.py:58 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-11 18:12:31,305 - DEBUG - fund_module_4_order.py:62 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-11 18:12:31,306 - DEBUG - fund_module_4_order.py:96 - Order out: Order with 45 donuts committed.
+2026-05-11 18:12:31,306 - DEBUG - fund_module_4_order.py:121 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
+2026-05-11 18:13:02,739 - INFO - fund_module_4_order.py:125 -  - - - - - - Start of the test - - - - - - 
+2026-05-11 18:13:04,050 - DEBUG - fund_module_4_order.py:50 - Your order: 1 donuts. Price per donut: $2.99
+2026-05-11 18:13:04,051 - DEBUG - fund_module_4_order.py:51 - The total cost of your order is: $2.99
+2026-05-11 18:13:04,051 - DEBUG - fund_module_4_order.py:52 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-11 18:13:04,051 - DEBUG - fund_module_4_order.py:56 - Your total is $2.99
+2026-05-11 18:13:04,051 - DEBUG - fund_module_4_order.py:94 - Order out: Order with 1 donuts committed.
+2026-05-11 18:13:04,051 - DEBUG - fund_module_4_order.py:119 - Order out: {'quantity': 1, 'sub_total': 2.99, 'discount': False, 'total': 2.99}
+2026-05-12 13:00:26,828 - INFO - fund_module_4_order.py:131 -  - - - - - - Start of the test - - - - - - 
+2026-05-12 13:00:27,774 - DEBUG - fund_module_4_order.py:48 - Your order is being created: 45 donuts.
+2026-05-12 13:00:27,774 - DEBUG - fund_module_4_order.py:56 - The total cost of your order is: $134.55
+2026-05-12 13:00:27,774 - DEBUG - fund_module_4_order.py:57 - Last week you order was 4 donuts. And a total of $11.96
+2026-05-12 13:00:27,774 - DEBUG - fund_module_4_order.py:63 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-12 13:00:27,775 - DEBUG - fund_module_4_order.py:67 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-12 13:00:27,775 - DEBUG - fund_module_4_order.py:99 - Orders saved: Order with 45 donuts committed.
+2026-05-12 13:00:27,775 - DEBUG - fund_module_4_order.py:125 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
