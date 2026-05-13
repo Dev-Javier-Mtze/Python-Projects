@@ -9,7 +9,7 @@ from poetry_demo.utils import logging_console_file
 
 
 @dataclass(order=True)
-class Order:
+class Order():
     def __init__(self, quantity: int):
         self.quantity = quantity
         self.discount_applied = False
@@ -26,14 +26,6 @@ class Order:
     @property
     def discount_calc(self) -> float:
         return round(self.total_cost * 0.90, 2)
-
-    @property
-    def apply_sub_total(self) -> float:
-        if self.discount_applied:
-            self.sub_total = self.discount_calc
-        else:
-            self.sub_total = self.total
-        return round(self.sub_total, 2)
 
     @property
     def discount(self) -> bool:
@@ -92,7 +84,7 @@ class UnitOfWork:
 
 class Presenter:
     def complete_order(self, order: Order):
-        return order.model_dump()
+        return order.dict()
 
     def show_orders(self, orders):
         for order in orders:

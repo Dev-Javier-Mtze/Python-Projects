@@ -25,13 +25,7 @@ def test_order_quantity():
 def test_order_total_cost():
     order = Order(10)
     order.total_cost
-    assert round(order.total, 2) == 29.90
-
-
-def test_order_apply_sub_total():
-    order = Order(10, True)
-    order.apply_sub_total
-    assert round(order.sub_total, 2) == 26.91
+    assert round(order.total_cost, 2) == 29.90
 
 
 def test_order_less():

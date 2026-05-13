@@ -1,6 +1,6 @@
 import pytest
 
-from poetry_demo.int_module_6_cache import Adapter, Middle, Port
+from poetry_demo.int_module_6_cache import Adapter, Middle
 
 
 @pytest.fixture
