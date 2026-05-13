@@ -31,6 +31,12 @@ jobs:
       - name: Build package
         run: poetry build
 
+      - name: Run pip-audit
+        run: pip-audit --requirement requirements.txt || true
+
+      - name: Run Safety
+        run: safety scan --full-report || true
+
       - name: Build Docker image
         run: docker build -t my-registry/poetry_demo:latest .
 

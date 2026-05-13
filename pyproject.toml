@@ -23,6 +23,11 @@ types-requests = "^2.33.0.20260503"
 uvicorn = "^0.46.0"
 poetry-plugin-export = "^1.10.0"
 pandas-stubs = "^3.0.0.260204"
+typer = "^0.25.1"
+pydantic-settings = "^2.14.1"
+pip-audit = "^2.10.0"
+safety = "^3.7.0"
+urllib3 = {version = "2.7.0", python = ">=3.11,<4.0"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
@@ -43,3 +48,7 @@ line-length = 88
 [tool.ruff.lint]
 select = ["E", "F", "I"]  # Ejemplo: errores, fallos, imports
 ignore = ["E501"]         # Ignorar longitud de línea
+
+
+[tool.poetry.scripts]
+poetry-demo = "poetry_demo.cli:app"

@@ -8,6 +8,11 @@ from requests.exceptions import HTTPError
 
 from poetry_demo.utils import logging_console_file
 
+from poetry_demo.config import Settings
+
+settings = Settings()
+
+print(settings.http_url)
 
 def fatal_error(details):
     logger.warning(f"Giving up after {details['tries']} tries.")
@@ -30,7 +35,7 @@ def llamar_api(url):
 
 
 def url():
-    url = random.choice(["https://httpbin.org/get", "https://httpbin.org/status/500"])
+    url = random.choice([settings.http_url, settings.error_http_url])
     return url
 
 
