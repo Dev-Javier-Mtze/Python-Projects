@@ -18,16 +18,16 @@ def test_valid_ids_rejects_strings(n):
 
 
 def test_order_quantity():
-    order = Order(10)
+    order = Order(quantity=10)
     assert order.quantity == 10
 
 
 def test_order_total_cost():
-    order = Order(10)
+    order = Order(quantity=10)
     order.total_cost
     assert round(order.total_cost, 2) == 29.90
 
 
 def test_order_less():
-    order = Order(10)
+    order = Order(quantity=10)
     assert round(order.discount_calc, 2) == 26.91

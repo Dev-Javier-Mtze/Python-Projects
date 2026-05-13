@@ -7,13 +7,10 @@ from pydantic import BaseModel, Field
 
 from poetry_demo.utils import logging_console_file
 
-
-@dataclass(order=True)
-class Order():
-    def __init__(self, quantity: int):
-        self.quantity = quantity
-        self.discount_applied = False
-        self.price = 2.99
+class Order(BaseModel):
+    quantity: int
+    discount_applied: bool = False
+    price: float = 2.99
 
     @property
     def total_cost(self) -> float:
@@ -42,8 +39,8 @@ class OrderCreated:
 
 class OrderAmount:
     def discountApplied(self, actual_quantity, last_quantity) -> Order:
-        my_order = Order(actual_quantity)
-        last_order = Order(last_quantity)
+        my_order = Order(quantity=actual_quantity)
+        last_order = Order(quantity=last_quantity)
         
         logger.debug(f"The total cost of your order is: ${my_order.total_cost:.2f}")
         logger.debug(
@@ -84,7 +81,7 @@ class UnitOfWork:
 
 class Presenter:
     def complete_order(self, order: Order):
-        return order.dict()
+        return order.model_dump()
 
     def show_orders(self, orders):
         for order in orders:
