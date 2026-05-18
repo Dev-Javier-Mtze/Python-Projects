@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="07UxpUhQ9RinYR2lOGE0gZSQ0PHgRu5ifN6z1EQp">
+    <meta name="csrf-token" content="XS8NuwgluQg7mOpJAAvmtemZxCL0xdTVPtYbYyGv">
     <meta name="description" content="Send files up to 25GB. No signup. No ads. No tracking. Fast, private file sharing powered by Cloudflare.">
 
     <title>File no longer available - storage.to</title>
@@ -80,7 +80,7 @@
         gtag('config', 'G-2X4HHTTKKH');
     </script>
 
-    <link rel="preload" as="style" href="https://storage.to/build/assets/app-BWp9PfLK.css" /><link rel="preload" as="style" href="https://storage.to/build/assets/app-BHH8rdGj.css" /><link rel="modulepreload" as="script" href="https://storage.to/build/assets/app-nuCGSNmE.js" /><link rel="stylesheet" href="https://storage.to/build/assets/app-BWp9PfLK.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://storage.to/build/assets/app-BHH8rdGj.css" data-navigate-track="reload" /><script type="module" src="https://storage.to/build/assets/app-nuCGSNmE.js" data-navigate-track="reload"></script>
+    <link rel="preload" as="style" href="https://storage.to/build/assets/app-d3y5riER.css" /><link rel="preload" as="style" href="https://storage.to/build/assets/app-BHH8rdGj.css" /><link rel="modulepreload" as="script" href="https://storage.to/build/assets/app-CYUr_P4z.js" /><link rel="stylesheet" href="https://storage.to/build/assets/app-d3y5riER.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://storage.to/build/assets/app-BHH8rdGj.css" data-navigate-track="reload" /><script type="module" src="https://storage.to/build/assets/app-CYUr_P4z.js" data-navigate-track="reload"></script>
             <meta name="robots" content="noindex, nofollow">
     
     </head>
@@ -191,8 +191,8 @@
                     <template x-teleport="body">
     <div x-show="open" x-cloak
          wire:ignore.self
-         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-24d06e112874' }) })"
-         @dropdown-open.window="if ($event.detail.id !== 'dd-24d06e112874' && open) { open = false }"
+         x-init="$watch('open', value => { if (value) $dispatch('dropdown-open', { id: 'dd-4e7d8e23adc3' }) })"
+         @dropdown-open.window="if ($event.detail.id !== 'dd-4e7d8e23adc3' && open) { open = false }"
          @keydown.escape.window="if (open) { open = false }"
          x-anchor.bottom-end.offset.8="$refs.trigger"
          @click.outside="open = false"

@@ -1,3 +1,4 @@
+import logging
 import random
 import time
 from contextlib import contextmanager
@@ -6,13 +7,12 @@ import backoff
 import requests
 from requests.exceptions import HTTPError
 
+from poetry_demo.config import Settings
 from poetry_demo.utils import logging_console_file
 
-from poetry_demo.config import Settings
-
+logger = logging.getLogger("module_7_httpx")
 settings = Settings()
 
-print(settings.http_url)
 
 def fatal_error(details):
     logger.warning(f"Giving up after {details['tries']} tries.")
@@ -51,7 +51,7 @@ def timer(description):
     end = time.time()
     datos = list(range(int(start), int(end)))
     for lote in batch_generator(datos, 5):
-        print(lote)
+        logger.debug(lote)
     logger.debug(f"{description}: {end - start:.4f} segundos")
 
 

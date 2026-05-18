@@ -3,7 +3,10 @@ from typing import Protocol
 
 import requests
 
+from poetry_demo.config import Settings
 from poetry_demo.utils import logging_console_file
+
+settings = Settings()
 
 
 @cache
@@ -20,7 +23,7 @@ class Port(Protocol):
 
 class Middle:
     def receive_data(self) -> float:
-        url = "https://httpbin.org/get"
+        url = settings.http_url
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()

@@ -15,7 +15,7 @@ class Order(BaseModel):
     @property
     def total_cost(self) -> float:
         return round(self.quantity * 2.99, 2)
-    
+
     @property
     def sub_total(self) -> float:
         return self.discount_calc if self.discount_applied else self.total_cost
@@ -32,6 +32,7 @@ class Order(BaseModel):
     def discount(self, value: bool):
         self.discount_applied = value
 
+
 class OrderCreated:
     def my_order(self, donut_amount):
         logger.debug(f"Your order is being created: {donut_amount} donuts.")
@@ -41,7 +42,7 @@ class OrderAmount:
     def discountApplied(self, actual_quantity, last_quantity) -> Order:
         my_order = Order(quantity=actual_quantity)
         last_order = Order(quantity=last_quantity)
-        
+
         logger.debug(f"The total cost of your order is: ${my_order.total_cost:.2f}")
         logger.debug(
             f"Last week you order was {last_order.quantity} donuts. And a total of ${last_order.total_cost:.2f}"
@@ -62,11 +63,13 @@ class OrderAmount:
 
         return my_order
 
+
 class OrderOut(BaseModel):
     quantity: int = Field(..., gt=0, lt=100)
     sub_total: Union[float, Decimal] = Field(..., gt=-1)
     discount: bool = False
     total: Union[float, Decimal] = Field(..., gt=0)
+
 
 class UnitOfWork:
     def __init__(self):
@@ -74,7 +77,7 @@ class UnitOfWork:
 
     def save_order(self, order: Order):
         self.orders.append(f"Order with {order.quantity} donuts was purchased.")
-    
+
     def retrieve_orders(self):
         return self.orders
 
@@ -86,7 +89,6 @@ class Presenter:
     def show_orders(self, orders):
         for order in orders:
             logger.debug(f"Orders saved: {order}")
-
 
 
 def main():
@@ -112,7 +114,6 @@ def main():
     order_presented = order_out.complete_order(order)
     order_out.show_orders(orders)
     logger.debug(f"Order out: {order_presented}")
-
 
 
 if __name__ == "__main__":

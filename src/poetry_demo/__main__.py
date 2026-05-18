@@ -1,5 +1,9 @@
-from .cli import app
+from poetry_demo.cli import app
+
+
+def main():
+    app()
+
 
 if __name__ == "__main__":
-    # Important: call Typer directly
-    app()
+    main()

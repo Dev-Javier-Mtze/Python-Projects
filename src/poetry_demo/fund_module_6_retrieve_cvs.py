@@ -43,9 +43,9 @@ if __name__ == "__main__":
     logger = logging_console_file.logging_file("fund_module_6_retrieve_cvs")
     logger.info(" - - - - - - Start of the test - - - - - - ")
 
-cvs_data = load_cvs()
-cvs_write = write_csv(cvs_data)
-result = cvs_write[cvs_write["Id"] > 5]
-result = result.drop_duplicates(subset=["Name"])
-logger.debug("Without the duplicates, we have:")
-logger.debug(result)
+    cvs_data = load_cvs()
+    cvs_write = write_csv(cvs_data)
+    result = cvs_write[cvs_write["Id"] > 5]
+    result = result.drop_duplicates(subset=["Name"])
+    logger.debug("Without the duplicates, we have:")
+    logger.debug(result)

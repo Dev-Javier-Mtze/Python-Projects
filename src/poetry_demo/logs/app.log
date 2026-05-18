@@ -787,3 +787,187 @@
 2026-05-13 12:32:58,328 - DEBUG - fund_module_3_backoff.py:29 - Intentando llamar: https://httpbin.org/get
 2026-05-13 12:32:58,794 - DEBUG - fund_module_3_backoff.py:64 - <Response [200]>
 2026-05-13 12:32:58,796 - DEBUG - fund_module_3_backoff.py:55 - API call ends at: 0.4680 segundos
+2026-05-13 15:32:05,296 - INFO - fund_module_3_backoff.py:60 -  - - - - - - Start of the test - - - - - - 
+2026-05-13 15:32:05,296 - DEBUG - fund_module_3_backoff.py:29 - Intentando llamar: https://httpbin.org/status/500
+2026-05-13 15:32:06,239 - DEBUG - fund_module_3_backoff.py:29 - Intentando llamar: https://httpbin.org/status/500
+2026-05-13 15:32:07,145 - DEBUG - fund_module_3_backoff.py:29 - Intentando llamar: https://httpbin.org/status/500
+2026-05-13 15:32:07,608 - WARNING - fund_module_3_backoff.py:18 - Giving up after 3 tries.
+2026-05-13 15:32:07,608 - DEBUG - fund_module_3_backoff.py:66 - Error calling the endpoint
+2026-05-13 15:32:07,611 - DEBUG - fund_module_3_backoff.py:55 - API call ends at: 2.3151 segundos
+2026-05-13 16:06:31,622 - INFO - int_module_1_crud.py:13 -  - - - - - - Start of the test - - - - - - 
+2026-05-13 16:06:43,361 - DEBUG - int_module_1_crud.py:45 - 1, Lalo
+2026-05-13 16:06:43,361 - DEBUG - int_module_1_crud.py:45 - 2, Ricardo
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 3, Federico
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 4, Ximena
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 5, Patricio
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 6, Ricardo
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 7, Fede
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 8, Penelope
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 9, Shoyo
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 10, Jerico
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 11, Pedro
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 12, josua
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 13, pedro
+2026-05-13 16:06:43,362 - DEBUG - int_module_1_crud.py:45 - 14, Cesar
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 1, 546, Lalo, 115, 829.0, False
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 2, 12, Ricardo, 949, 823.0, False
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 3, 34, Federico, 744, 654.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 4, 0, Ximena, 993, 57.0, False
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 5, 3334, Patricio, 662, 44.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 6, 12, Ricardo, 411, 114.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 7, 50, Fede, 699, 789.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 8, 234, Penelope, 424, 96.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 9, 166, Shoyo, 119, 4.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 10, 66, Jerico, 676, 623.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 11, 748, Pedro, 282, 155.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 12, 899, josua, 874, 706.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 13, 44, pedro, 545, 516.0, True
+2026-05-13 16:06:43,363 - DEBUG - int_module_1_crud.py:51 - 14, 12, Cesar, 140, 468.0, False
+2026-05-14 12:09:19,866 - INFO - fund_module_2_games.py:85 -  - - - - - - Start of the test - - - - - - 
+2026-05-14 12:09:22,241 - DEBUG - fund_module_2_games.py:36 - Game already in the library
+2026-05-14 12:09:22,242 - DEBUG - fund_module_2_games.py:37 - Your game is Call of duty with a rating of 7
+2026-05-14 12:09:22,242 - DEBUG - fund_module_2_games.py:77 - The games that we found above 7 in rating are:
+2026-05-14 12:09:22,242 - DEBUG - fund_module_2_games.py:80 - Name: Gears of war with a rating of 10
+2026-05-14 12:09:22,242 - DEBUG - fund_module_2_games.py:80 - Name: Tetris with a rating of 8
+2026-05-14 12:09:22,242 - DEBUG - fund_module_2_games.py:80 - Name: Bioshock with a rating of 9
+2026-05-14 12:12:33,698 - INFO - fund_module_4_order.py:121 -  - - - - - - Start of the test - - - - - - 
+2026-05-14 12:12:36,321 - DEBUG - fund_module_4_order.py:38 - Your order is being created: 45 donuts.
+2026-05-14 12:12:36,322 - DEBUG - fund_module_4_order.py:46 - The total cost of your order is: $134.55
+2026-05-14 12:12:36,322 - DEBUG - fund_module_4_order.py:47 - Last week you order was 9 donuts. And a total of $26.91
+2026-05-14 12:12:36,322 - DEBUG - fund_module_4_order.py:53 - Oh I see that you bought more donuts this time, let me give you a discount.
+2026-05-14 12:12:36,323 - DEBUG - fund_module_4_order.py:57 - Your total was $134.55, but with your discount, your new total is: $121.10
+2026-05-14 12:12:36,323 - DEBUG - fund_module_4_order.py:91 - Orders saved: Order with 45 donuts was purchased.
+2026-05-14 12:12:36,323 - DEBUG - fund_module_4_order.py:116 - Order out: {'quantity': 45, 'sub_total': 134.55, 'discount': True, 'total': 121.1}
+2026-05-14 12:14:01,188 - INFO - int_module_1_crud.py:13 -  - - - - - - Start of the test - - - - - - 
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 1, Lalo
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 2, Ricardo
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 3, Federico
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 4, Ximena
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 5, Patricio
+2026-05-14 12:14:08,243 - DEBUG - int_module_1_crud.py:45 - 6, Ricardo
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 7, Fede
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 8, Penelope
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 9, Shoyo
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 10, Jerico
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 11, Pedro
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 12, josua
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 13, pedro
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 14, Cesar
+2026-05-14 12:14:08,244 - DEBUG - int_module_1_crud.py:45 - 15, javier
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 1, 546, Lalo, 115, 829.0, False
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 2, 12, Ricardo, 949, 823.0, False
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 3, 34, Federico, 744, 654.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 4, 0, Ximena, 993, 57.0, False
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 5, 3334, Patricio, 662, 44.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 6, 12, Ricardo, 411, 114.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 7, 50, Fede, 699, 789.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 8, 234, Penelope, 424, 96.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 9, 166, Shoyo, 119, 4.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 10, 66, Jerico, 676, 623.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 11, 748, Pedro, 282, 155.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 12, 899, josua, 874, 706.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 13, 44, pedro, 545, 516.0, True
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 14, 12, Cesar, 140, 468.0, False
+2026-05-14 12:14:08,245 - DEBUG - int_module_1_crud.py:51 - 15, 27, Alice, 311, 329.0, False
+2026-05-14 12:14:08,246 - DEBUG - int_module_1_crud.py:51 - 16, 828, javier, 567, 798.0, False
+2026-05-18 09:22:24,571 - INFO - fund_module_7_httpx.py:34 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:22:24,571 - DEBUG - fund_module_7_httpx.py:25 - Intentando
+2026-05-18 09:22:25,365 - DEBUG - fund_module_7_httpx.py:25 - Intentando
+2026-05-18 09:22:26,617 - DEBUG - fund_module_7_httpx.py:25 - Intentando
+2026-05-18 09:22:27,059 - DEBUG - fund_module_7_httpx.py:29 - <Response [200 OK]>
+2026-05-18 09:22:27,059 - DEBUG - fund_module_7_httpx.py:44 - Streaming a disco
+2026-05-18 09:22:28,363 - DEBUG - fund_module_7_httpx.py:51 - File downloaded successfully: /Users/javdev/Documents/Python/Poetry/poetry_demo/src/poetry_demo/data/dog.zip
+2026-05-18 09:25:38,786 - INFO - fund_module_3_backoff.py:59 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:25:38,786 - DEBUG - fund_module_3_backoff.py:28 - Intentando llamar: https://httpbin.org/get
+2026-05-18 09:25:39,405 - DEBUG - fund_module_3_backoff.py:63 - <Response [200]>
+2026-05-18 09:25:39,408 - DEBUG - fund_module_3_backoff.py:53 - [1779117938]
+2026-05-18 09:25:39,408 - DEBUG - fund_module_3_backoff.py:54 - API call ends at: 0.6214 segundos
+2026-05-18 09:25:44,332 - INFO - fund_module_3_backoff.py:59 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:25:44,333 - DEBUG - fund_module_3_backoff.py:28 - Intentando llamar: https://httpbin.org/status/500
+2026-05-18 09:25:45,829 - DEBUG - fund_module_3_backoff.py:28 - Intentando llamar: https://httpbin.org/status/500
+2026-05-18 09:25:48,506 - DEBUG - fund_module_3_backoff.py:28 - Intentando llamar: https://httpbin.org/status/500
+2026-05-18 09:25:49,036 - WARNING - fund_module_3_backoff.py:17 - Giving up after 3 tries.
+2026-05-18 09:25:49,037 - DEBUG - fund_module_3_backoff.py:65 - Error calling the endpoint
+2026-05-18 09:25:49,040 - DEBUG - fund_module_3_backoff.py:53 - [1779117944, 1779117945, 1779117946, 1779117947, 1779117948]
+2026-05-18 09:25:49,040 - DEBUG - fund_module_3_backoff.py:54 - API call ends at: 4.7071 segundos
+2026-05-18 09:26:22,406 - INFO - fund_module_6_retrieve_cvs.py:44 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:26:22,408 - DEBUG - fund_module_6_retrieve_cvs.py:20 -     Id     Name                Email         Phone
+0    0   Javier   javier@example.com  722-234-0934
+1    1     Luis     luis@example.com  722-555-7463
+2    2  Mariana  mariana@example.com  722-324-8596
+3    3   Ximena   ximena@example.com  722-945-9393
+4    4  Ricardo  ricardo@example.com  722-237-7529
+5    5     Omar     omar@example.com  722-748-6623
+6    6    Mario    mario@example.com  722-987-2376
+7    7    Cesar    cesar@example.com  722-639-0992
+8    8    Cesar    cesar@example.com  722-639-0992
+9    9    Paola    paola@example.com  722-127-9380
+10  10   Ximena   ximena@example.com  722-344-9366
+11  11    Laura    laura@example.com  722-101-2525
+12  12   Manolo   manolo@example.com  722-343-3943
+13  13     Lalo     lalo@example.com  722-890-0044
+14  14     Jose     jose@hotmail.com  722-189-7676
+15  15   Manolo   manolo@example.com  722-871-8398
+16  16     Lupe     lupe@hotmail.com  722-938-9983
+2026-05-18 09:26:39,619 - INFO - fund_module_6_retrieve_cvs.py:36 - CVS file updated
+2026-05-18 09:26:39,620 - DEBUG - fund_module_6_retrieve_cvs.py:38 -     Id     Name                Email         Phone
+0    0   Javier   javier@example.com  722-234-0934
+1    1     Luis     luis@example.com  722-555-7463
+2    2  Mariana  mariana@example.com  722-324-8596
+3    3   Ximena   ximena@example.com  722-945-9393
+4    4  Ricardo  ricardo@example.com  722-237-7529
+5    5     Omar     omar@example.com  722-748-6623
+6    6    Mario    mario@example.com  722-987-2376
+7    7    Cesar    cesar@example.com  722-639-0992
+8    8    Cesar    cesar@example.com  722-639-0992
+9    9    Paola    paola@example.com  722-127-9380
+10  10   Ximena   ximena@example.com  722-344-9366
+11  11    Laura    laura@example.com  722-101-2525
+12  12   Manolo   manolo@example.com  722-343-3943
+13  13     Lalo     lalo@example.com  722-890-0044
+14  14     Jose     jose@hotmail.com  722-189-7676
+15  15   Manolo   manolo@example.com  722-871-8398
+16  16     Lupe     lupe@hotmail.com  722-938-9983
+17  17    Pablo    pablo@hotmail.com  722-345-7678
+2026-05-18 09:26:39,625 - DEBUG - fund_module_6_retrieve_cvs.py:50 - Without the duplicates, we have:
+2026-05-18 09:26:39,626 - DEBUG - fund_module_6_retrieve_cvs.py:51 -     Id    Name               Email         Phone
+6    6   Mario   mario@example.com  722-987-2376
+7    7   Cesar   cesar@example.com  722-639-0992
+9    9   Paola   paola@example.com  722-127-9380
+10  10  Ximena  ximena@example.com  722-344-9366
+11  11   Laura   laura@example.com  722-101-2525
+12  12  Manolo  manolo@example.com  722-343-3943
+13  13    Lalo    lalo@example.com  722-890-0044
+14  14    Jose    jose@hotmail.com  722-189-7676
+16  16    Lupe    lupe@hotmail.com  722-938-9983
+17  17   Pablo   pablo@hotmail.com  722-345-7678
+2026-05-18 09:29:53,672 - INFO - int_module_4_async.py:70 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:29:54,090 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.3958 segundos
+2026-05-18 09:29:54,091 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.3936 segundos
+2026-05-18 09:29:54,182 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.0912 segundos
+2026-05-18 09:29:54,520 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.4304 segundos
+2026-05-18 09:29:54,523 - DEBUG - int_module_4_async.py:72 - ----------
+2026-05-18 09:29:55,335 - DEBUG - int_module_4_async.py:57 - <Response [200]>
+2026-05-18 09:29:55,336 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.8125 segundos
+2026-05-18 09:29:55,753 - DEBUG - int_module_4_async.py:57 - <Response [200]>
+2026-05-18 09:29:55,754 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.4156 segundos
+2026-05-18 09:29:56,224 - DEBUG - int_module_4_async.py:57 - <Response [200]>
+2026-05-18 09:29:56,225 - DEBUG - int_module_4_async.py:65 - API call ends at: 0.4684 segundos
+2026-05-18 09:29:57,281 - DEBUG - int_module_4_async.py:57 - <Response [200]>
+2026-05-18 09:29:57,281 - DEBUG - int_module_4_async.py:65 - API call ends at: 1.0536 segundos
+2026-05-18 09:33:11,557 - INFO - int_module_6_cache.py:50 -  - - - - - - Start of the test - - - - - - 
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:45 - Response: 187.235.65.232
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 0
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 12
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 24
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 36
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 48
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 60
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 72
+2026-05-18 09:33:12,179 - DEBUG - int_module_6_cache.py:14 - 84
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:14 - 96
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:14 - 108
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:14 - 120
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:14 - 132
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:52 - Same result, we use cache
+2026-05-18 09:33:12,180 - DEBUG - int_module_6_cache.py:53 - Same result, we use cache

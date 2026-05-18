@@ -20,4 +20,4 @@ if __name__ == "__main__":
     try:
         login("ricardo", "0202")
     except Exception as e:
-        print(f"{e}")
+        logger.warning(f"{e}")

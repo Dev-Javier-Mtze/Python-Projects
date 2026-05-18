@@ -2,12 +2,15 @@ import pytest
 
 from poetry_demo.adapters.adapter_http import RetrieveResponseHttp
 from poetry_demo.adapters.adapter_sql import RetrieveResponseSql
+from poetry_demo.config import Settings
 from poetry_demo.domain.ports import CreateOrder
+
+settings = Settings()
 
 
 @pytest.fixture
 def adapter_sql():
-    return RetrieveResponseHttp("https://httpbin.org/get")
+    return RetrieveResponseHttp(settings.http_url)
 
 
 def test_port_sql(adapter_sql):
